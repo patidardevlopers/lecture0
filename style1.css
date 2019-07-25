@@ -1,0 +1,91 @@
+body{
+    margin:10px;
+}
+div{
+    margin:10px;
+}
+h1,input[type=button]{
+    text-align:center;
+    color:white;
+    background-color:slateblue;
+}
+h2{
+    text-align:center;
+    background-color:dodgerblue;
+    color:white;
+    padding:5px;
+}
+li{
+    display:inline;
+    
+}
+a{
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+    padding: 10px 15px;
+    
+    background:slateblue;
+}
+a:hover{
+    background-color:orange;
+}
+input[type="button"]:hover
+{
+    background-color: green;
+}
+#img1{
+    width:300px;;
+}
+.mytable{
+    width:100%;
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid grey;
+    text-align: center;
+    padding:10px 5px;
+    
+}
+th{
+    background-color:green;
+    color:white;
+}
+.container{
+    width:45%;
+    height:400px;
+    margin:0;
+    border:1.5px solid slateblue;
+}
+.container > div{
+    font-size:18px;
+    margin:10px;
+    padding:5px;
+}
+input{
+    padding:5px;
+}
+.container2
+{
+    border: 2px solid slateblue;
+    padding:18px;
+}
+@media (max-width:600px){
+    Body{
+        background-color:gray;
+    }
+    #img1{
+        width:100%;
+        border:2px solid slateblue;
+    }
+    .mytable{
+        color:white;
+        border:5px solid green;
+    }
+    
+    a{
+            width:100%;
+        }
+    
+}
